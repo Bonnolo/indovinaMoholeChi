@@ -1,62 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 /* ////////////////////////////////////////////////// */
 
-body{
-    background-color: rgb(34, 34, 34);
-    color: white;
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
 }
-section{
-    display: grid;
-    justify-content: center;
-    grid-template-rows: repeat(3, 1fr);
-    padding-top: 0.8rem;
+section {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(3, 1fr);
+  padding-top: 0.8rem;
 }
-.grid-5{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 1rem;
-    margin-top: 1rem;
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
 }
-.pos1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.pos1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-.pos2{
-    position: absolute;
-    text-align: center;
-    height: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    color: rgb(255, 255, 255);
-    width: 210px;
-    z-index: 1;
+.pos2 {
+  position: absolute;
+  text-align: center;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  width: 210px;
+  z-index: 1;
 }
-.solo1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 1rem;
+.solo1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 1rem;
 }
-.solo2{
-    position: absolute;
-    text-align: center;
-    height: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    color: rgb(255, 255, 255);
-    width: 210px;
-    z-index: 1;
+.solo2 {
+  position: absolute;
+  text-align: center;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  width: 210px;
+  z-index: 1;
 }
-.opacity{
-    opacity: 15%;
+.opacity {
+  opacity: 15%;
 }
